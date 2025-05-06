@@ -143,3 +143,14 @@ header a span img{
    right:475px;
    top:-325px;
 }
+.notice-error {
+   background-color: #ffdddd; /* Light red background */
+   color: #d8000c; /* Dark red text color */
+   border: 1px solid #f2b2b2; /* Light red border */
+   padding: 10px; /* Padding around the text */
+   margin: 10px 0; /* Margin to separate from other elements */
+   border-radius: 5px; /* Rounded corners */
+   font-family: Arial, sans-serif; /* Font styling */
+   font-size: 14px; /* Font size */
+   /*text-align: center;*/ /* Centered text */
+}

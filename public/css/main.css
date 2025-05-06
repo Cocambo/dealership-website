@@ -881,3 +881,17 @@ footer > div > p{
    margin-left: 166px;
    font-weight: 600;
 }
+
+
+.button-logout{
+   color: #DD2F30;
+   font-weight: bold;
+   padding: 0px 0px;
+   transition: all 500ms ease;
+   background-color: transparent;
+   border: none;  
+}
+
+.button-logout:hover{
+   cursor:pointer;
+}

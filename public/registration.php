@@ -1,3 +1,7 @@
+<?php 
+require_once __DIR__ . '/src/helpers.php';
+checkGuest();
+?>;
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,30 +20,35 @@
 
 
    <div class="wrapper">
-      <form action = "">
+      <form action = "src/actions/registration.php" method = "post" >
          <h1>Регистрация</h1>
-
+         
          <div class="input-box">
-            <input type="text" placeholder="Имя пользователя" required>
+            <input type="text" id = "fName" placeholder="Имя" name = "fName" required>
             <i class='bx bx-user'></i>
          </div>
 
          <div class="input-box">
-            <input type="text" id = "emailField" oninput="checkEmail()" placeholder="Электронная почта" required>
+            <input type="text" id = "sName" placeholder="Фамилия" name = "sName" required>
+            <i class='bx bx-user'></i>
+         </div>
+
+         <div class="input-box">
+            <input type="text" id = "emailField" name = "email" oninput="checkEmail()" placeholder="Электронная почта" required>
             <i class='bx bx-envelope' ></i>
             <div id="tooltip">Введите корректный Email</div> <!-- Подсказка -->
             <p id="result"></p>
          </div>
 
          <div class="input-box">
-            <input type="password" id = "passwordField" oninput="checkPassword()" placeholder="Пароль" required>
+            <input type="password" id = "passwordField" name = "password" oninput="checkPassword()" placeholder="Пароль" required>
             <i class='bx bxs-lock-alt'></i>
             <div id="tooltip2">Введите корректный пароль</div> <!-- Подсказка -->
             <p id="result2"></p>
          </div>
 
          <div class="input-box">
-            <input type="password" id = "confirmpasswordField" oninput="checkconfirmPassword()" placeholder="Повторите пароль" required>
+            <input type="password" id = "confirmpasswordField" name = "confirmPassword" oninput="checkconfirmPassword()" placeholder="Повторите пароль" required>
             <i class='bx bx-lock' ></i>
             <div id="tooltip3">Введите корректный пароль</div> <!-- Подсказка -->
             <p id="result3"></p>
