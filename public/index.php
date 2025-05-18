@@ -29,27 +29,9 @@
                 <div class="search-bar">
                     <input type="text" placeholder="Поиск" class="js-input-search">
                     <img src="images/icons-search.png" alt="logo-888" >
-                    <!-- <button type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                      <img src="images/logo111.svg" alt="logo-888" > -->
-                     <!-- </button> -->
-                </div>
-                <div class="icons row jcc aic">
-                
-                    <!-- <span class="shopping-cart row jcc aic js-cart-icon js-cart-btn">
-                        <span class="counter row jcc aic js-cart-current-count">1</span>
-                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 23 20">
-                            <path  d="M4.258 0c.45 0 .842.31.944.738l.749 2.649h15.132a.972.972 0 01.945 1.207L20.21 11.94a.973.973 0 01-.945.74H7.643a.973.973 0 01-.947-.748l.005.017L3.503 1.947H.973A.973.973 0 01.973 0h3.285zM19.84 5.334H6.497l1.895 5.398h10.113l1.335-5.398zM8.857 13.699a2.719 2.719 0 012.715 2.717 2.719 2.719 0 01-2.715 2.716 2.719 2.719 0 01-2.716-2.716 2.719 2.719 0 012.716-2.717zm0 1.491a1.225 1.225 0 100 2.45 1.225 1.225 0 000-2.45zM17.901 13.699a2.719 2.719 0 012.715 2.717 2.719 2.719 0 01-2.715 2.716 2.719 2.719 0 01-2.715-2.716 2.719 2.719 0 012.715-2.717zm0 1.491a1.225 1.225 0 100 2.45 1.225 1.225 0 000-2.45z"/>
-                        </svg>
-                    </span> -->
                 </div>
             </div>
-            
-            
         </div>
-                
-        
-            
     </header>
     <main class="main column aic jcfs">
 

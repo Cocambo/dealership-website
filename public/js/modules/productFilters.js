@@ -21,7 +21,7 @@
             return false;
          }
          
-         const price = parseInt(product.prices[0].replace(/\s/g, ''),10);
+         const price = parseInt(product.prices.replace(/\s/g, ''),10);
 
          if (price < priceRange.min || price > priceRange.max){
             return false;
@@ -32,18 +32,18 @@
       if (currentPriceFilterSelect === 'asc')
       {
          filteredProducts.sort((a, b) => {
-            const priceA = parseInt(a.prices[0].replace(/\s/g, ''),10);
+            const priceA = parseInt(a.prices.replace(/\s/g, ''),10);
 
-            const priceB = parseInt(b.prices[0].replace(/\s/g, ''),10);
+            const priceB = parseInt(b.prices.replace(/\s/g, ''),10);
             return priceA - priceB;
          });
       }
       else if (currentPriceFilterSelect === 'desc')
       {
          filteredProducts.sort((a, b) => {
-            const priceA = parseInt(a.prices[0].replace(/\s/g,''),10);
+            const priceA = parseInt(a.prices.replace(/\s/g,''),10);
 
-            const priceB = parseInt(b.prices[0].replace(/\s/g,''),10);
+            const priceB = parseInt(b.prices.replace(/\s/g,''),10);
             return priceB - priceA;
          });
       }

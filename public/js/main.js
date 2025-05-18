@@ -1,4 +1,4 @@
-import products from './products.js'  // импортируем продукты
+import products from './products.php'  // импортируем продукты
 import { renderProductCards } from './modules/productCards.js'; // импортируем productsCards.js
 import { filter } from './modules/productFilters.js'; // импортируем productsFilters.js
  

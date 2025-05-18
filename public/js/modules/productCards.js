@@ -14,16 +14,16 @@ const renderProductCard = ({id, photo, model, prices}) => {
                         <a href="#" id="${id}" class="link column aic js-link-card">
                             
                             <div class="pro duct-image row jcc">
-                                <img src="img/products/${photo[0]}" alt="" class="image js-image-card">   
+                                <img src="images/autocards/${photo}" alt="" class="image js-image-card">   
                             </div>
                             <div class="product-description">
                                 <h3 class="title js-title-card">${model}</h3>
                             </div>  
                             <div class="product-price">
-                                <span class="price js-price-card">${prices[0]}</span><span>₽</span>
+                                <span class="price js-price-card">${prices}</span><span>₽</span>
                             </div>       
                         </a>
-                        <button onclick="location.href='/raschet.html'" type="button" class="addCart buy-button js-buy-button">РАСЧЕТ</button>
+                        <button onclick="location.href='/raschet.php'" type="button" class="addCart buy-button js-buy-button">РАСЧЕТ</button>
                         
    `;
    return li;
